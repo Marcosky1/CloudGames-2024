@@ -1,6 +1,6 @@
-import banner1 from '../assets/images/banner1.jpg';
-import banner2 from '../assets/images/banner2.jpg';
-import banner3 from '../assets/images/banner3.jpg';
+import banner1 from '../assets/images/banner4.jpg';
+import banner2 from '../assets/images/banner5.jpeg';
+import banner3 from '../assets/images/banner6.jpeg';
 function MainBanner() {
     return (
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -13,22 +13,23 @@ function MainBanner() {
                 <div className="carousel-item active">
                     <img src={banner1} className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>EVE VR Online</h5>
-                        <p>Amazing VR space game</p>
+                        <h5>Game Designer</h5>
+                        <p>"Cada juego cuenta una historia única; mi pasión es crear mundos donde los jugadores puedan vivirla."
+                        </p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={banner2} className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Virtual Reality Headset </h5>
-                        <p>New VR set, no cables</p>
+                        <h5>Programador </h5>
+                        <p>"Transformo líneas de código en experiencias interactivas que desafían y cautivan a los jugadores."</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={banner3} className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Computer Cloud Gaming</h5>
-                        <p>Cloud Solutions</p>
+                        <h5>Modelador 3D</h5>
+                        <p>"Dando vida a la imaginación pixel por pixel, construyo mundos que inspiran y sorprenden a los jugadores."</p>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 .centered-container {
   position: relative;
 
-  background-color: #333; /* Change to your preferred background color */
+  background-color: #02cafc; /* Change to your preferred background color */
   color: #fff; /* Change to your preferred text color */
 }
 
@@ -18,11 +18,56 @@
 }
 
 .centered-unity {
-  width: 800px;
-  height: 600px;
-  border: 2px solid #d70b0b; /* Add a border to the Unity component */
+  width: 960px;
+  height: 540px;
+  border: 2px solid #0011ff; /* Add a border to the Unity component */
   border-radius: 10px; /* Add border radius for a cooler look */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+
+.scoreboard-container {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.scoreboard {
+  display: inline-block;
+  text-align: left;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.scoreboard-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.scoreboard-frame {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 300px; /* Ajusta según sea necesario */
+  overflow-y: auto;
+}
+
+.scoreboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scoreboard-table th,
+.scoreboard-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.scoreboard-table th {
+  background-color: #f2f2f2;
 }
 
 .navbar {
@@ -76,3 +121,4 @@
   height: auto;
   margin-right: 1rem;
 }
+
